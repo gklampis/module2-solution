@@ -1,0 +1,54 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@media (max-width: 992px){
+    .card{
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px ){
+    #sushi{
+        width: 750px;
+    }
+}
+
+@media (max-width: 767px){
+    .card{
+        width: 100%;
+    }
+}
+
+
+h1{
+    text-align: center;
+}
+
+.container{
+    background-color:whitesmoke;
+    justify-content: space-between;
+}
+
+.card{
+    margin: 15px;
+    width: 350px;
+    height: 150px;
+    padding: 10px;
+    background-color: gray;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+
+
+.headercontent{
+    float: right;
+    padding: 10px;
+    background-color: red;
+    border-radius: 5px;
+}
+
+.content{
+    margin-top: 50px;
+}
